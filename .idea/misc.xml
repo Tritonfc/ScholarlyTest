@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/drawable/border.xml" value="0.1455" />
         <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/cbt_question.xml" value="0.22" />
         <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/fragment_display.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/image_display.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/questio_option.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/question_option.xml" value="0.33" />
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/table_display.xml" value="0.22" />
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/text_display.xml" value="0.22" />
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/title_bar.xml" value="0.22" />
+        <entry key="..\:/Users/IHEME TOBECHUKWU/AndroidStudioProjects/ScholarlyTest/app/src/main/res/layout/unordered_list.xml" value="0.17074275362318841" />
       </map>
     </option>
   </component>

@@ -8,10 +8,11 @@ import androidx.room.RoomDatabase
     entities = [
         ContentsEntity :: class,
         ContentTypeEntity :: class
-
-
     ],
     version = 1
 )
 abstract class ContentDatabase : RoomDatabase() {
+
+    abstract fun getContentDao(): ContentDao
+
 }

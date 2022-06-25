@@ -11,7 +11,7 @@ data class ContentsEntity(
     @PrimaryKey
     val id: Int,
     @ColumnInfo(name = "content")
-    val contents : Any?,
+    val contents : String,
     @ColumnInfo(name = "content_type_id")
     val contentTypeId : Int,
 )

@@ -13,14 +13,8 @@ class Parser @Inject constructor(private val context: Context, val gson: Gson) {
     inline fun <reified T> type(): Type = object : TypeToken<T>() {}.type
 
     inline fun <reified T> parse(name: String): T {
-        val jsonResponse = getJsonResponse(name)
-        return gson.fromJson(jsonResponse, type<T>())
+        return gson.fromJson(name, type<T>())
     }
 
-    fun getJsonResponse(name: String): String {
-        val resources = context.applicationContext.resources
-        val resId = resources.getIdentifier(name, "raw", context.packageName)
-        val inputStreamReader = InputStreamReader(resources.openRawResource(resId))
-        return BufferedReader(inputStreamReader).use { it.readText() }
-    }
+
 }
