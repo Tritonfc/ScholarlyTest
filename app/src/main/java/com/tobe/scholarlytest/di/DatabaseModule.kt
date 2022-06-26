@@ -19,7 +19,6 @@ object DatabaseModule {
     @Singleton
     fun provideDatabase(
         app: Application,
-
         ) = Room.databaseBuilder(app, ContentDatabase::class.java, "content_database")
         .createFromAsset("scholarly.db")
         .build()

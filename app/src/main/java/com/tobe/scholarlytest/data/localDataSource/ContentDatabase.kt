@@ -12,7 +12,6 @@ import androidx.room.RoomDatabase
     version = 1
 )
 abstract class ContentDatabase : RoomDatabase() {
-
     abstract fun getContentDao(): ContentDao
 
 }

@@ -6,13 +6,14 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <include
-        android:id="@+id/unordered_title"
+        android:id="@+id/text_title"
         layout="@layout/title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/text_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -23,6 +24,6 @@
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/unordered_title" />
+        app:layout_constraintTop_toBottomOf="@+id/text_title" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

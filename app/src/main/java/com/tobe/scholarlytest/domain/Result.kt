@@ -7,10 +7,12 @@ import com.tobe.scholarlytest.data.localDataSource.models.TextContent
 import com.tobe.scholarlytest.data.remoteDataSource.Country
 import com.tobe.scholarlytest.data.remoteDataSource.api.CountriesResponse
 
+
+
 data class Result(
-    val text : TextContent,
-    val imageCountry: String,
-    val tableContent : ResponseDataModel<Companies>,
-    val cbtQuestion: ResponseDataModel<CbtQuestion>,
-    val unorderedList : CountriesResponse
+    val text : TextContent? = null,
+    val imageCountry: String ="",
+    val tableContent : ResponseDataModel<Companies>? = null,
+    val cbtQuestion: ResponseDataModel<CbtQuestion>? = null,
+    val unorderedList : CountriesResponse? = null
 )
